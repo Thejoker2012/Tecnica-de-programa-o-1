@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    int minhaIdade; //Posso escrever tanto dessa forma, primeiro int minhaIdade depois minhaIdade = 24
+    minhaIdade = 24;
+    
+    int maeIdade;
+    maeIdade = 48
+    
+    int paiIdade = 49 //Ou posso escrever dessa forma deireto, int paiIdade = 49
+    
+    minhaIdade = 24;
+    
+    printf("Minha idade = %i\nPai idade =%i\nMae idade = %i/n", //sempre dar espaços entre cada comando
+    minhaIdade, paiIdade, maeIdade);
+    
+    //sempre que for definir qual o %i (variável que vai ser utilizada, sempre colocar na sequenciaque você quer mostrar depois das aspas no final da linha nde comando.
+    
+    return 0;
+}
