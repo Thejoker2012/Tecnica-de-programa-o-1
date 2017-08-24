@@ -1,1 +1,19 @@
 
+#include <stdio.h>
+
+int main ()
+{ /* variáveis: declara ao compilador para reservar um espaço na memoria para a variável que voce criou.*/
+// Para fazer uma variável começamos com a palavra int que significa (numero inteiro).
+ // E bom sempre colocar um nome da variável que faça sentido com o que voce esta fazendo   
+   
+   int minhaIdade;
+   
+   minhaIdade = 23;
+   
+   printf("Minha idade e =23/n ")
+   
+   printf("Minha idade e = %i./n",minhaIdade)
+    
+    
+  return o;
+}
